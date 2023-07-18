@@ -1,0 +1,21 @@
+.item {
+  height: 150px;
+  width: 200px;
+  background: lightgray;
+  padding: 40px;
+
+}
+
+section {
+  background: lightcoral;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+
