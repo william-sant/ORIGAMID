@@ -140,3 +140,17 @@ p {
   padding: 40px;
   box-sizing: border-box;
 }
+
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  
+
+.subtitulo {
+  text-align: center;
+}
+
+}

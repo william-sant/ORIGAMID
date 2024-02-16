@@ -1,0 +1,43 @@
+body {
+  background-color: lightgray;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: 100px;
+  background-color: lightslategray;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.esquerda {
+  height: 100%;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.direita {
+  height: 100%;
+  width: 100%;
+  background-color: lightskyblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.direita .principal {
+  height: 240px;
+  width: 370px;
+  background: lightgoldenrodyellow;
+  grid-column: span 3;
+}
+
+.direita .secundaria {
+  height: 40px;
+  width: 70px;
+  background: lightpink;
+}

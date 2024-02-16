@@ -1,0 +1,14 @@
+div {
+  background:blueviolet;
+  height: 80px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+div:hover {
+  background: rgb(182, 134, 226);
+  color: #fff;
+}
