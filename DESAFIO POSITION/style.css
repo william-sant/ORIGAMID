@@ -122,7 +122,7 @@ header{
 }
 
 .vantagens-item:hover{
-  border-color: red;
+  border-color: rgb(43, 177, 201);
 }
 
 .vantagens-item:nth-child(odd){
